@@ -1,0 +1,57 @@
+h1 {
+	position:auto;
+	color: red;
+	
+}
+
+p {
+	background-color: gray;
+	border: 02px solid black;
+	padding: 02px;
+	height: auto;
+	width: auto;
+	margin: 60px;
+}
+
+title {
+	color: red;
+}
+
+
+.container-fluid{
+	float: center;
+}
+
+
+.container {
+	background-color: gray;
+	border: 02px solid black;
+	padding: 02px;
+	text-align: center;
+	height: auto;
+	width: auto;
+	margin: 60px;
+	color: black;
+}
+
+#p1 {
+	text-align: left;
+}
+
+body {
+	background-color: yellow;
+}
+
+#exe {
+	color: red;
+	text-align: center;
+}
+#ids {
+	float: center;
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    #ids{
+    	width: 860px!important; 
+    }
